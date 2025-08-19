@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Welcome to Siri Vennela</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f0;
+    }
+    header {
+      background: #ff6f91;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h2 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background: #ff6f91;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    .menu{
+      display: flex;
+      gap: 100px;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .footer {
+      background-color: #ff6f91;
+      color: white;
+      padding: 40px 20px 20px;
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1100px;
+      margin: auto;
+      flex-wrap: wrap;
+    }
+
+    .footer h3 {
+      color: #1da1f2;
+      margin-bottom: 15px;
+    }
+
+    .footer p, 
+    .footer a {
+      color: white;
+      text-decoration: none;
+      margin: 5px 0;
+      display: block;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 20px;
+      margin-top: 20px;
+      border-top: 1px solid #3c5a77;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+            <img src="Images/Logo.JPG"  class="image">
+                <div>
+                    <h1 style="color: white; font-size: 60px;">Siri Vennela Ice cream</h1>
+                    <div class="button2">
+                        <div>
+                            <button onclick="window.location.href='home.html'"  class="button1">
+                                Home
+                            </button>
+                        </div>
+                        <div>
+                            <button onclick="window.location.href='about.html'"  class="button1">
+                                About
+                            </button>
+                        </div>
+                        <div>
+                            <button onclick="window.location.href='contact.html'"  class="button1">
+                                 Contact
+                            </button>
+                        </div>
+                        <div>
+                             <button onclick="window.location.href='login.html'"  class="button1">
+                                Login
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <hr>
+  <section class="hero">
+    <h2>Delicious Ice Cream, Anytime</h2>
+    <p>Fresh flavors made daily with love 💕</p>
+  </section>
+  <section>
+    <header>
+    <h1>🍦 Welcome to Siri Vennela Ice Cream</h1>
+  </header>
+
+    <h1 style="text-align: center;color: blue;">Menu List</h1>
+    <div class="menu">
+      <div>
+        <h3 style="color: rgb(0, 255, 72);">Basic Ice Cream Flavors</h3>
+        <ol>
+            <li>Vanilla – ₹50–₹100</li>
+            <li>Chocolate – ₹60–₹110</li>
+            <li>Strawberry – ₹70–₹120</li>
+            <li>Butterscotch – ₹80–₹130</li>
+            <li>Mango – ₹70–₹120</li>
+            <li>Pista (Pistachio) – ₹90–₹150</li>
+            <li>Black Currant – ₹80–₹130</li>
+            <li>Butterscotch – ₹80–₹130</li>
+            <li>Butterscotch – ₹80–₹130</li>
+        </ol>
+      </div>
+      <div>
+          <h3 style="color: darkorange;">Premium/Gourmet Ice Creams</h3>
+        <ol>
+            <li>Cookies & Cream – ₹120–₹200</li>
+            <li>Chocolate Fudge Brownie – ₹130–₹220</li>
+            <li>Salted Caramel – ₹140–₹230</li>
+            <li>Red Velvet – ₹150–₹250</li>
+            <li>Mango – ₹70–₹120</li>
+            <li>Nutty Hazelnut – ₹160–₹260</li>
+            <li>Oreo Ice Cream – ₹120–₹200</li>
+            <li>Tiramisu – ₹180–₹300</li>
+            <li>Dulce de Leche – ₹150–₹250</li>
+        </ol>
+      </div>
+  </div>
+  </section>
+  <section class="products">
+    <div class="card">
+      <img src="Images/stra.JPG" alt="Strawberry Ice Cream">
+      <h3>Strawberry Bliss</h3>
+      <p>Fresh strawberries blended into creamy goodness.</p>
+    </div>
+    <div class="card">
+      <img src="Images/choco.JPG" alt="Chocolate Ice Cream">
+      <h3>Choco Delight</h3>
+      <p>Rich chocolate ice cream for true chocoholics.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80" alt="Vanilla Ice Cream">
+      <h3>Classic Vanilla</h3>
+      <p>Smooth and timeless vanilla bean flavor.</p>
+    </div>
+  </section>
+<footer class="footer">
+    <div class="footer-container">
+      <div>
+        <h3>Delicious Ice</h3>
+        <p>Commercial Ice cream services since 2001</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <p>thirumalasettysivakumar2001@gmail.com</p>
+        <p>8978026697</p>
+      </div>
+    </div>
+  </footer>
+        <footer class="footer">
+                <p>&copy; 2025 Sweet Treats Ice Cream | Made with ❤️</p>
+        </footer>
+</body>
+</html>
